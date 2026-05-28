@@ -374,6 +374,9 @@ a:hover { text-decoration: underline; }
   gap: 32px;
   align-items: center;
 }
+.win-grid.solo {
+  grid-template-columns: 1fr 1fr;
+}
 .win-card {
   background: rgba(255,255,255,.06);
   border: 1px solid rgba(255,255,255,.12);
@@ -572,7 +575,7 @@ a:hover { text-decoration: underline; }
   .hero-content { grid-template-columns: 1fr; gap: 40px; }
   .hero-visual { display: none; }
   .steps-grid { grid-template-columns: 1fr; }
-  .win-grid { grid-template-columns: 1fr; }
+  .win-grid, .win-grid.solo { grid-template-columns: 1fr; }
   .win-divider { font-size: 2rem; text-align: center; padding: 8px 0; }
   .stats-row { grid-template-columns: 1fr; max-width: 320px; }
 }
