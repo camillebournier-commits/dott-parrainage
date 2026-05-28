@@ -36,9 +36,9 @@ body {
 
 /* ---- Typo ---- */
 h1, h2, h3 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); }
 h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
@@ -87,7 +87,7 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
 }
 .logo {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--black);
@@ -193,7 +193,7 @@ a:hover { text-decoration: underline; }
   letter-spacing: .08em;
 }
 .code-value {
-  font-family: 'Syne', monospace;
+  font-family: 'Plus Jakarta Sans', monospace;
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--orange);
@@ -224,7 +224,7 @@ a:hover { text-decoration: underline; }
   gap: 8px;
   background: var(--orange);
   color: #fff !important;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
   font-size: 1.05rem;
   padding: 18px 36px;
@@ -273,12 +273,12 @@ a:hover { text-decoration: underline; }
 }
 .scooter-emoji { font-size: 5rem; line-height: 1; }
 .scooter-info { text-align: center; }
-.scooter-info strong { display: block; font-family: 'Syne', sans-serif; font-size: 1.3rem; }
+.scooter-info strong { display: block; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.3rem; }
 .scooter-info span { font-size: .9rem; color: var(--grey); }
 .free-badge {
   background: var(--orange);
   color: #fff;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
   font-size: .8rem;
   letter-spacing: .1em;
@@ -343,7 +343,7 @@ a:hover { text-decoration: underline; }
 .step-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: #FFD5CC; }
 .step-card:hover::before { opacity: 1; }
 .step-number {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
   font-size: 3.5rem;
   color: var(--grey-lt);
@@ -393,7 +393,7 @@ a:hover { text-decoration: underline; }
 }
 .win-card ul li:last-child { border-bottom: none; }
 .win-divider {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   color: var(--orange);
@@ -416,7 +416,7 @@ a:hover { text-decoration: underline; }
 }
 .faq-item[open] { border-color: var(--orange-lt); }
 .faq-item summary {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
   font-size: 1.05rem;
   padding: 22px 28px;
@@ -479,7 +479,7 @@ a:hover { text-decoration: underline; }
 }
 .stat strong {
   display: block;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 2.2rem;
   font-weight: 800;
   color: var(--orange);
