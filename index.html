@@ -480,13 +480,15 @@
       });
     }
 
-    // Floating CTA mobile : apparaît après le hero
+    // Floating CTA mobile : apparaît dès qu'on quitte le haut du hero,
+    // et se masque en fin de page pour ne pas cacher le CTA final.
     window.addEventListener('scroll', () => {
       const floating = document.getElementById('floating-cta');
       if (!floating) return;
-      if (window.innerWidth <= 768 && window.scrollY > 500) {
+      const nearBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 300;
+      if (window.innerWidth <= 768 && window.scrollY > 280 && !nearBottom) {
         floating.style.display = 'block';
-      } else { 
+      } else {
         floating.style.display = 'none';
       }
     });
