@@ -740,9 +740,9 @@ a:hover { text-decoration: underline; }
   }
   .hero-text .offer-badge   { order: 1; margin-bottom: 10px; font-size: 12.5px; padding: 6px 12px; }
   .hero-text .eyebrow       { order: 2; margin-bottom: 12px; }
-  .hero-text h1             { order: 3; margin-bottom: 12px; font-size: clamp(2rem, 8vw, 2.6rem); }
-  .hero-text .hero-sub      { order: 4; margin-bottom: 20px; font-size: .97rem; }
-  .hero-text .btn-primary   { order: 5; margin-bottom: 16px; width: 100%; justify-content: center; }
+  .hero-text h1             { order: 3; margin-bottom: 18px; font-size: clamp(2rem, 8vw, 2.6rem); }
+  .hero-text .btn-primary   { order: 4; margin-bottom: 20px; width: 100%; justify-content: center; }
+  .hero-text .hero-sub      { order: 5; margin-bottom: 20px; font-size: .97rem; }
   .hero-text .code-block    { order: 6; margin-bottom: 14px; width: 100%; justify-content: center; }
   .hero-text .hero-hint     { order: 7; margin-bottom: 16px; text-align: center; }
   .hero-text .offer-items   { order: 8; }
